@@ -1,0 +1,503 @@
+body {
+	background-color: #fff;
+	font-family: 'Droid Serif', serif;
+	font-family: 'Raleway', sans-serif;
+}
+
+.navbar-brand {
+	color: #3c3d42;
+	font-weight: bold;
+}
+
+.active a {
+	color:#3c3d42;
+}
+
+a {
+	color: #747a7a;
+}
+
+.navbar-nav > li > a:hover {
+	background-color: transparent;
+	color: #5dca88;
+	transition: 1s;
+}
+/*_________carousel_________*/
+#myCarousel {
+	margin-top: 60px;
+	background-image: url(images/smart-app-psd_02.png);
+	background-repeat: no-repeat;
+}
+
+.carousel-caption {
+	position: absolute;
+	top: 0;
+	left: 15%;
+	width: 26%;
+}
+
+.carousel-caption h3,h4,p {
+	text-align: left;
+}
+
+/*-*/
+
+.carousel-inner>.item {
+	height: 45vh;
+}
+
+.item.two img {
+	display: block;
+	margin: 0 auto;
+	width: 20%;
+}
+
+.item.two p {
+	text-align: center;
+	font-size: 26px;
+	color: rgb( 175, 184, 184 );
+	line-height: 1.5;
+}
+
+.item.three p {
+	font-size: 36px;
+	color: rgb( 255, 255, 255 );
+	font-weight: bold;
+	text-align: center;
+	line-height: 7em;
+}
+
+/*-*/
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img{
+	max-width: 50%;
+}
+
+.carousel-inner>.item.active, .carousel-inner>.item.next.left, .carousel-inner>.item.prev.right {
+	margin-top: 3%;
+}
+
+.carousel-inner>.item.active {
+	position: relative;
+}
+
+.bg-app {
+	position: absolute;
+	left: 49%;
+	top: 10%;
+	width: 23%;
+	z-index: 96;
+}
+
+.button {
+	border-style: solid;
+	border-radius: 40px;
+	padding: 10px 50px;
+	border: 3px solid rgba(255, 255, 255, 0.5);
+	background-color: rgba( 13, 72, 98, 0 );
+	z-index: 90;
+	font-family: "Raleway";
+	font-size: 21px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	line-height: 23.1px;
+	text-align: left;
+	display: block;
+}
+
+.button:hover {
+	color: #5dca88;
+	border-color:#5dca88;
+	transition: 1s;
+}
+
+.layer {
+	overflow: scroll; /* Добавляем полосы прокрутки */
+	width: 300px; /* Ширина блока */
+	height: 150px; /* Высота блока */
+	padding: 5px; /* Поля вокруг текста */
+	border: solid 1px black; /* Параметры рамки */
+} 
+
+/*_________side menu______________________*/
+
+#side{
+	overflow: scroll; /* Добавляем полосы прокрутки */
+	width: 290px;  /*Ширина блока */
+	height: 320px; /* Высота блока */
+	text-align:left;
+	margin: 70px 0;
+	overflow-x: hidden;
+}
+
+#side ul {
+
+}
+
+#side ul li {
+	list-style-type: none;
+}
+
+#side ul li a{
+	font-size: 20px;
+	font-family: "Raleway";
+	color: rgb( 159, 169, 169 );
+	text-align: left;
+	line-height: 3.3;
+	text-decoration: none;
+}
+
+#side ul li a:hover{
+	color: #5dca88;
+	transition: 1s;
+}
+
+#side ul li a i {
+	line-height: normal;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+/* SCROLLBAR */
+#side::-webkit-scrollbar {
+	width: 10px;
+}
+/* Track */
+#side::-webkit-scrollbar-track {
+	background-color: #ccc;
+	border: 4px solid transparent;
+	background-clip: content-box;   /* THIS IS IMPORTANT */
+}
+/* Handle */
+#side::-webkit-scrollbar-thumb {
+	background: rgb(93, 202, 136 );
+}
+
+/*_________end of side menu______________________*/
+
+h1 {
+	text-align: center;
+	font-weight: bold;
+}
+
+.container p{
+	font-size: 16px;
+	color: rgb( 175, 184, 184 );
+	line-height: 1.7;
+	text-align: left;
+}
+
+.container span {
+	font-size: 24px;
+	color: rgb( 99, 108, 108 );
+	font-weight: bold;
+	text-align: left;
+}
+
+#center-case i{
+	color: rgb(93, 202, 136 );
+	display: block;
+	text-align: center;
+	padding: 70px 0 40px 0;
+}
+
+/*_____________prodact-feature_____________*/
+.prodact-feature {
+	background-color: #f2f9fe;
+	padding: 120px 0;
+}
+
+h2 {
+	font-size: 36px;
+	color: rgb( 93, 202, 136 );
+	font-weight: bold;
+	text-align: left;
+}
+
+.prodact-feature span {
+	font-size: 36px;
+	font-weight: normal;
+	color: rgb( 140, 148, 148 );
+	text-align: left;
+	padding: 40px 0;
+	display: block;
+}
+
+.prodact-feature p {
+	font-size: 16px;
+	color: rgb( 140, 148, 148 );
+	line-height: 1.5;
+	text-align: left;
+	padding-bottom: 50px;
+}
+
+#learn-more {
+	border-style: solid;
+	border-radius: 40px;
+	padding: 10px 50px;
+	border: 3px solid rgba(170, 178, 181, 0.5);
+	color: #636c6c;
+	z-index: 90;
+	font-family: "Raleway";
+	font-size: 21px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	line-height: 23.1px;
+	text-align: left;
+	display: block;
+}
+
+#learn-more:hover {
+	color: #5dca88;
+	border-color:#5dca88;
+	transition: 1s;
+}
+
+#mobile1 {
+	text-align: center;
+}
+
+#mobile1 img{
+	border-radius: 45px;
+}
+/*_________________gallery____________*/
+.gallery .container {
+	padding: 100px 0;
+}
+
+.gallery .container h3 {
+	font-weight: bold;
+	font-size: 36px;
+	color: rgb( 99, 108, 108 );
+	text-align: left;
+	text-align: center;
+}
+
+.gallery .container p {
+	font-size: 16px;
+	color: rgb( 175, 184, 184 );
+	line-height: 1.5;
+	text-align: center;
+	width: 80%;
+	margin: 0 auto;
+	padding: 30px 0 80px 0;
+}
+
+.gallery .container .owl-carousel .owl-item img {
+	width: 40%;
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+}
+
+.owl-carousel {
+	padding: 0 50px;
+}
+
+.owl-next {
+	position: absolute;
+	right: 0;
+	top: 40%;
+	color: #9fa9a9;
+}
+
+.owl-prev {
+	position: absolute;
+	left: 0;
+	top: 40%;
+	color: #9fa9a9;
+}
+/*__________prodact-geature______*/
+.prodact-geature {
+	background-color: #f2f9fe;
+	padding: 80px 0; 
+}
+
+.prodact-geature span {
+	font-size: 36px;
+	font-weight: normal;
+	color: rgb( 140, 148, 148 );
+	text-align: left;
+	padding: 40px 0;
+	display: block;
+}
+
+.prodact-geature p {
+	font-size: 16px;
+	color: rgb( 140, 148, 148 );
+	line-height: 1.5;
+	text-align: left;
+	padding-bottom: 50px;
+}
+
+#mobile2 {
+	text-align: center;
+}
+
+#mobile2 img{
+	border-radius: 45px;
+	height: auto;
+	width: 100%;
+}
+
+/*____________testimonials___________*/
+.testimonials h5 {
+	font-size: 36px;
+	color: rgb( 99, 108, 108 );
+	font-weight: bold;
+	line-height: 0.667;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.testimonials .owl-carousel .owl-item img {
+	width: 10%;
+	display: block;
+	margin: 30px auto;
+}
+
+.testimonials p {
+	font-size: 24px;
+	font-family: "DroidSerif";
+	color: rgb( 140, 148, 148 );
+	font-style: italic;
+	line-height: 1;
+	text-align: left;
+	margin: 20px auto;
+	display: block;
+	text-align: center;
+}
+
+.testimonials span {
+	font-size: 24px;
+	font-weight: normal;
+	color: rgb( 93, 202, 136 );
+	line-height: 1;
+	text-align: left;
+	margin: 20px auto;
+	display: block;
+	text-align: center;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+	background-color: rgb(93, 202, 136)!important;
+}
+
+/*newsletter*/
+
+.newsletter {
+	background-color: rgb( 243, 245, 245 );
+}
+
+.newsletter h6 {
+	font-size: 36px;
+	color: rgb( 140, 148, 148 );
+	font-weight: bold;
+	line-height: 0.667;
+	text-align: left;
+	text-align: center;
+	padding: 30px 0 10px 0;
+	z-index: 10;
+}
+
+.input-group {
+	margin: 40px auto;
+	width: 100%;
+	text-align: center;
+}
+
+input.btn.btn-lg,
+input.btn.btn-lg:focus {
+	border-style: solid;
+	border-width: 2px;
+	border-color: rgb( 187, 195, 194 );
+	background-color: rgb( 255, 255, 255 );
+	width: 60%;
+	border-radius: 25px;
+	text-align: left;
+}
+
+button.btn {
+	font-size: 20px;
+	font-style: italic;
+	color: rgb( 255, 255, 255 );
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 1.2;
+	text-align: left;
+	background-color: rgb( 93, 202, 136 );
+	width: 10%;
+	border-radius: 25px;
+	position: absolute;
+	left: 70%;
+	transition: 1s;
+}
+
+button.btn:hover {
+	background-color: #4CAF50; /* Green */
+	color: white;
+	transition: 1s;
+}
+
+/*footer*/
+footer {
+	background-color: rgb( 45, 49, 47 );
+}
+
+footer .navbar {
+	margin: 0;
+} 
+
+footer .container p {
+	font-size: 24px;
+	font-family: "Raleway";
+	color: rgb( 140, 148, 148 );
+	line-height: 1;
+	text-align: left;
+	text-align: center;
+	margin: 70px 0 30px 0;
+	z-index: 4;
+}
+
+footer .container ul {
+	text-align: center;
+	padding: 10px;
+}
+
+footer .container ul li {
+	list-style: none;
+	display: inline-block;
+	padding: 5px;
+}
+
+footer .container ul li a img {
+	-moz-transition: all 1s ease-out;
+	-o-transition: all 1s ease-out;
+	-webkit-transition: all 1s ease-out;
+}
+
+footer .container ul li a img:hover{
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-o-transform: scale(1.1);
+}
+
+footer .container .bot-apps li {
+	padding: 10px;
+}
+
+footer .container .bot-apps li a {
+	text-decoration: none;
+	font-size: 14px;
+	color: rgb( 140, 148, 148 );
+	line-height: 1.714;
+	text-align: left;
+}
+
+footer .container .bot-apps li a:hover {
+	color: #5dca88;
+	transition: 1s;
+}
+
